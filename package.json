@@ -16,7 +16,8 @@
   "scripts": {
     "lint": "eslint src --ext .ts",
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "test:ci": "jest --ci --no-stack-trace --verbose"
   },
   "repository": {
     "type": "git",

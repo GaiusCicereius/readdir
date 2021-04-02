@@ -2,6 +2,7 @@
   "$schema": "http://json.schemastore.org/package",
   "name": "@gaius-bot/readdir",
   "description": "Fast, dependency-less, stream-based recursive directory reads",
+  "private": false,
   "version": "1.0.0",
   "license": "MIT",
   "main": "./dist/index.js",
